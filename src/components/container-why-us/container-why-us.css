@@ -1,0 +1,76 @@
+.title-why-us {
+    display: flex;
+    text-align: center;
+    justify-content: center !important;
+    padding-top: 30px;
+}
+
+.sub-title {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #9397ad;
+    display: block;
+    padding-top: 30px;
+}
+
+.card-img {
+    width: 30px;
+}
+
+.border-img {
+    text-align: center;
+    box-shadow: 0 0.275rem 0.75rem -0.0625rem rgb(19 16 34 / 6%), 0 0.125rem 0.4rem -0.0625rem rgb(19 16 34 / 3%) !important;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-card, .second-card, .third-card, .forth-card {
+    border-left-style: hidden;
+    border-bottom: hidden;
+    border-top-style: hidden;
+}
+
+.forth-card {
+    border-right: hidden;
+}
+
+.comments-card {
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.card-left {
+    background-color: #282c34;
+    margin-left: 10px;
+    border-radius: 7px;
+
+}
+
+.clients {
+    color: #6366F1;
+}
+
+.clients-served {
+    color: white;
+}
+
+.bottom-cards {
+    display: flex;
+    justify-content: start;
+}
+
