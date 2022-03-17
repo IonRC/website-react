@@ -15,7 +15,6 @@ const card = [
         img: "https://silicon.createx.studio/assets/img/landing/software-company/about-img.jpg",
         icon: "https://silicon.createx.studio/assets/img/landing/software-company/awards.svg"
     }
-
 ]
 
 const [contentOfTheTitle, btnContent, footerContent, srcImg] = card;
