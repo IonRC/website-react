@@ -1,6 +1,6 @@
 import React from "react";
 
-const [contentOfTheTitle, btnContent, footerContent, srcImg] = [
+const card = [
     {
         title: "Award-Winning Software Company",
         content: "We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time."
@@ -17,5 +17,7 @@ const [contentOfTheTitle, btnContent, footerContent, srcImg] = [
     }
 
 ]
+
+const [contentOfTheTitle, btnContent, footerContent, srcImg] = card;
 
 export {contentOfTheTitle, btnContent, footerContent, srcImg}
