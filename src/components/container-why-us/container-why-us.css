@@ -52,25 +52,150 @@
     justify-content: space-between;
     margin-top: 50px;
     font-size: 20px;
+    margin-bottom: 80px;
+
 }
 
 .card-left {
     background-color: #282c34;
     margin-left: 10px;
-    border-radius: 7px;
-
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid #e2e5f1;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    margin-right: 20px;
 }
 
 .clients {
     color: #6366F1;
+    font-size: 56px;
+    font-weight: bold;
+
 }
 
 .clients-served {
     color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 50px;
 }
 
 .bottom-cards {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.img-slayers {
+    width: 30px;
+}
+
+.slayer-box {
+    width: 50px;
+    background-color: #6366F1;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+}
+
+.chevron-right, .chevron-left {
+    width: 20px;
+}
+
+.chevron-left{
+    width: 14px;
+}
+
+.next-slide {
+    justify-content: space-between;
+    display: flex;
+}
+
+.sign-right, .sign-left {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0.275rem 0.75rem -0.0625rem rgb(19 16 34 / 6%), 0 0.125rem 0.4rem -0.0625rem rgb(19 16 34 / 3%)
+}
+
+.sign-right {
+    margin-right: 10px;
+}
+
+.sign-right:hover, .sign-left:hover{
+    background-color: #6366F1;
+}
+
+.card-right {
+    padding: 20px;
+    box-shadow: 0 0.275rem 0.75rem -0.0625rem rgb(19 16 34 / 6%), 0 0.125rem 0.4rem -0.0625rem rgb(19 16 34 / 3%);
+}
+
+.text-comment {
+    font-size: 1.125rem !important;
+    line-height: 2rem;
+    color: #585c7b;
+}
+
+
+.bottom-card {
+    display: flex;
     justify-content: start;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+.img-bottom-card img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.img-bottom-card {
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+.job-title{
+    color: #9397ad !important;
+    font-size: 0.875rem;
+}
+
+.reviews {
+    background-color: #3e4265;
+    display: inline-block;
+    padding: 16px 100px 16px 24px;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 45px;
+    border-radius: 6px;
+}
+
+.reviews:hover{
+    color: #FFF;
+}
+
+.clutch{
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.clutch:hover {
+    color: #FFF;
 }
 

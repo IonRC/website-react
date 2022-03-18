@@ -55,19 +55,42 @@ class ContainerWhyUs extends Component {
                 <div className={'card-left'}>
                     <h3 className={'clients'}>200+</h3>
                     <h2 className={'clients-served'}>Clients Already Served</h2>
-                    <a href={'https://themes.getbootstrap.com/preview/?theme_id=104975'}>
+                    <a className={'reviews'} href={'https://themes.getbootstrap.com/preview/?theme_id=104975'}>
                         <div className={'clutch'}>Reviewed on</div>
                         <img src={'https://silicon.createx.studio/assets/img/about/clutch.svg'}/>
                     </a>
                 </div>
                 <div className={'card-right'}>
                     <div className={'justify-between-item'}>
+                        <div className={'header-buttons'}>
                         <div className={'double-btn'}>
-                            <Button variant="primary">Primary</Button>
+                            <div className={'slayer-box'}>
+                                <img className={'img-slayers'} src={'https://cdn-icons-png.flaticon.com/512/206/206058.png'}/>
+                            </div>
                         </div>
                         <div className={'next-slide'}>
-                            <Button variant="outline-primary">Primary</Button>{' '}
-                            <Button variant="outline-secondary">Secondary</Button>{' '}
+                            <div className={'sign-right'}>
+                                <img className={'chevron-right'} src={'https://cdn.iconscout.com/icon/free/png-256/left-chevron-458460.png'}/>
+                            </div>
+                            <div className={'sign-left'}>
+                                <img className={'chevron-left'} src={'https://cdn.iconscout.com/icon/free/png-256/chevron-thin-right-1859438-1577834.png'}/>
+                            </div>
+                        </div>
+                        </div>
+                        <div className={'text-comment'}>
+                            Dolor, a eget elementum, integer nulla volutpat, nunc, sit.
+                            Quam iaculis varius mauris magna sem. Egestas sed sed suscipit dolor faucibus dui imperdiet at eget.
+                            Tincidunt imperdiet quis hendrerit aliquam feugiat neque cras sed. Dictum quam integer volutpat tellus, faucibus platea.
+                            Pulvinar turpis proin faucibus at mauris. Sagittis gravida vitae porta enim.
+                        </div>
+                        <div className={'bottom-card'}>
+                            <div className={'img-bottom-card'}>
+                                <img src={'https://silicon.createx.studio/assets/img/avatar/01.jpg'}/>
+                            </div>
+                            <div className={'text-bottom-card'}>
+                                <h4 className={'name-bottom-card'}>Darell Steward</h4>
+                                <span className={'job-title'}>Project Manager at Company LTD</span>
+                            </div>
                         </div>
                     </div>
                 </div>
