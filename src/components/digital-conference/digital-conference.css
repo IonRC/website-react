@@ -1,0 +1,17 @@
+.img-styled {
+    height: 60px;
+    border: 2px solid #ffffff;
+    position: relative;
+}
+
+.next-img {
+    left: -15px;
+}
+
+.another-img {
+    left: -30px;
+}
+
+i {
+    margin-right: 10px;
+}
