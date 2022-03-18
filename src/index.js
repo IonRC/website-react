@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/app';
 import reportWebVitals from './reportWebVitals';
+import BootstrapCarousel from "./components/carousel";
 
 ReactDOM.render(
   <React.StrictMode>
