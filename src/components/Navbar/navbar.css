@@ -1,0 +1,74 @@
+.bg-myBg{
+    background-color: #131022;
+}
+.albastrel{
+  justify-content: space-around;
+}
+.img{
+    margin-left: 20px;
+}
+.light{
+    color: white;
+}
+.nav-link{
+    color: white;
+    position:  relative;
+
+}
+.btnn{
+    display:flex;
+    justify-content: space-around;
+align-items: center;
+
+}
+.swich{
+
+}
+.btn{
+    display: flex;
+    max-height: 40px;
+    margin-top: -8px;
+    width: 120px;
+    height: 50px;
+    text-align: left ;
+}
+.cosicon{
+    margin-left: -10px;
+}
+
+.nav{
+    display: flex;
+    padding-left:0;
+}
+
+.nav-link:hover {
+    color:#6366F1;
+
+}
+.dropdown-item:hover{
+    color:#6366F1;
+}
+.dropdown-item-text {
+    font-size: 2rem;
+}
+
+.ind{
+    align-items: flex-end;
+}
+
+
+
+.ind{
+    color: white;
+}
+
+
+
+.dark-mode body {
+    background-color: #131022;
+    color: rgba(255,255,255,.7);
+}
+.dark-mode body {
+    background-color: #131022;
+    color: rgba(255,255,255,.7);
+}
