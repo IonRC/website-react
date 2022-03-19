@@ -12,7 +12,7 @@ const ButtonStyled = styled.a`
   color: #fff;
   font-weight: 600;
   line-height: 1.6;
-  padding: 1.2rem 3.8rem;
+  padding: 1.2rem 3.6rem;
   margin: 0 2rem 3rem 0;
   font-size: 1.3rem;
   border-radius: 0.5rem;
