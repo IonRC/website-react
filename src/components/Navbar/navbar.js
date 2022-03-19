@@ -10,8 +10,8 @@ import cosicon from "./img/cosicon.png"
 
 function Apptest() {
     return (
-        <div className="App">
-            <Navbar bg="myBg" variant="dark"
+        <div>
+            <Navbar  className="App" bg="myBg" variant="dark"
                     sticky="top">
 
                 <Navbar.Brand>
@@ -84,7 +84,7 @@ function Apptest() {
                     </Form>
                        <label className="form-check-label d-none d-sm-block light" htmlFor="theme-mode">Dark</label>
 
-                    <Button class="albastrel" href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/"><img
+                    <Button className="albastrel" href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/"><img
                         src={cosicon} alt="" className={"cosicon"} />Buy new</Button>
                    </div>
 

@@ -13,8 +13,9 @@ class CardComponentStructure extends Component {
                         <div className={"card-contant col col-md-5 text-center text-md-start"}>
                             <h1 className={"nameTheContent"}>{contentOfTheTitle.title}</h1>
                             <p className={"theContent"}> {contentOfTheTitle.content}</p>
-                            <a className="btn btn-primary shadow-primary btn-lg">{btnContent.title}</a>
+                            <a href="#" className="btn btn-primary shadow-primary  btn-lg ">{btnContent.title}</a>
                             <div>
+                                {/*<Button className={"btn btnCard btn-primary"} variant="primary" >{btnContent.title}</Button>{' '}*/}
                                 <h2 className={"some"}>{footerContent.title}</h2>
                                 <img alt={"icon"} className={"imgAssets"} src={srcImg.icon}/>
                             </div>

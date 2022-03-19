@@ -1,74 +1,95 @@
-.bg-myBg{
+.bg-myBg {
     background-color: #131022;
 }
-.albastrel{
-  justify-content: space-around;
+
+.App{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
-.img{
+
+.albastrel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 120px;
+    height: 35px;
+}
+
+.img {
     margin-left: 20px;
 }
-.light{
+
+.light {
     color: white;
 }
-.nav-link{
+
+.nav-link {
     color: white;
-    position:  relative;
+    position: relative;
 
 }
-.btnn{
-    display:flex;
+
+.btnn {
+    display: flex;
     justify-content: space-around;
-align-items: center;
+    align-items: center;
+}
+
+.swich {
 
 }
-.swich{
 
-}
-.btn{
+/*.btn{*/
+/*    display: flex;*/
+/*    max-height: 40px;*/
+/*    margin-top: -8px;*/
+/*    width: 120px;*/
+/*    height: 50px;*/
+/*    text-align: left ;*/
+/*}*/
+.cosicon {
     display: flex;
-    max-height: 40px;
-    margin-top: -8px;
-    width: 120px;
-    height: 50px;
-    text-align: left ;
-}
-.cosicon{
-    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
-.nav{
+.nav {
     display: flex;
-    padding-left:0;
+    padding-left: 0;
 }
 
 .nav-link:hover {
-    color:#6366F1;
+    color: #6366F1;
 
 }
-.dropdown-item:hover{
-    color:#6366F1;
+
+.dropdown-item:hover {
+    color: #6366F1;
 }
+
 .dropdown-item-text {
     font-size: 2rem;
 }
 
-.ind{
+.ind {
     align-items: flex-end;
 }
 
 
-
-.ind{
+.ind {
     color: white;
 }
 
 
+.dark-mode body {
+    background-color: #131022;
+    color: rgba(255, 255, 255, .7);
+}
 
 .dark-mode body {
     background-color: #131022;
-    color: rgba(255,255,255,.7);
-}
-.dark-mode body {
-    background-color: #131022;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
