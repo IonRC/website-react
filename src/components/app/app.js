@@ -8,6 +8,7 @@ import CardComponentStructure from "../card-info-company";
 import Apptest from "../Navbar";
 import Swiper from "../card-Carousel-info";
 import CardTitle from "../card-Carousel-info/cardTaital";
+import CardCarouselInfoNew from "../card-Carousel-info/cardCarouselinfoNew"
 
 
 export default class App extends Component {
@@ -20,7 +21,10 @@ export default class App extends Component {
           <Cards />
         <ContainerWhyUs />
           <CardTitle />
-          <Swiper />
+         {/*Swiper Card carousel vechi fara optimizare*/}
+          {/*<Swiper />*/}
+          {/*CardCarouselInfoNew este Swiper carousel nou optimizat*/}
+          <CardCarouselInfoNew />
         <DigitalConference />
         <LaunchProject />
       </div>

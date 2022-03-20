@@ -12,6 +12,13 @@
     height: 100px;
 }
 
+.containerSwiper {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
 .container-card-item {
     margin-left: 70px;
     margin-top: 30px;

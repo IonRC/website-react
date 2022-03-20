@@ -1,5 +1,5 @@
 
-const card = [
+const cards = [
     {
 
         teme:"Software",
@@ -42,7 +42,7 @@ const card = [
     },
 
 ]
-
-const [firstCard, secondCard, threeCard, fourCard] = card;
+export default cards
+const [firstCard, secondCard, threeCard, fourCard] = cards;
 
 export {firstCard, secondCard, threeCard, fourCard}
