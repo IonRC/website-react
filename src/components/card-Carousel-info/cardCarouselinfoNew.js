@@ -12,7 +12,7 @@ import cards from "./cardCarouselInfoContent"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import 'swiper/css/navigation';
 
 function CardCarouselInfoNew() {
     const [settings] = useState()
