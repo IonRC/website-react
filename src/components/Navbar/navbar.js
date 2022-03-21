@@ -19,7 +19,7 @@ function Apptest() {
                     Silicon
                 </Navbar.Brand>
 
-                <Nav class="nav">
+                <Nav className="nav">
                     <NavDropdown title="Landing">
                         <div>
                             //aici o sa vina div cu cele din interior si cu o poza
@@ -71,7 +71,7 @@ function Apptest() {
                     <NavDropdown.Divider/>
 
 
-                   <div class="btnn">
+                   <div className="btnn">
                        <label className="form-check-label d-none d-sm-block light" htmlFor="theme-mode">Light</label>
                        <Form>
 

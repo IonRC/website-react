@@ -40,6 +40,16 @@ const cards = [
         comment:"16",
         social:"88",
     },
+    {
+
+        teme:"Technology",
+        data:"Aug 03,2021",
+        title:"Examples & How We Would Fix Them 5 Bad Landing Page",
+        content:"Pulvinar at maecenas maecenas pharetra. Totam est nulla dolorum doloremque inventore suscipit consequuntur distinctio id.",
+        like:"42",
+        comment:"46",
+        social:"68",
+    },
 
 ]
 export default cards

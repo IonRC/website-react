@@ -116,13 +116,13 @@ export default class DigitalConference extends Component {
             <DateText>Oct 14-15, 2021</DateText>
             <StyledH1>NY Digital Conference</StyledH1>
             <AddressStyled>
-              <i class="bi bi-geo-alt"></i>
+              <i className="bi bi-geo-alt"></i>
               International Convention Centre, <br /> New York, USA
             </AddressStyled>
             <ButtonBlock>
               <ButtonStyled>Buy acces pass</ButtonStyled>
               <OutlineButtonStyled>
-                <i class="bi bi-calendar-check"></i>Add to calendar
+                <i className="bi bi-calendar-check"></i>Add to calendar
               </OutlineButtonStyled>
             </ButtonBlock>
             <ImagesBlock>

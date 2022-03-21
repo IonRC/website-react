@@ -26,30 +26,31 @@ function CardCarouselInfoNew() {
                    scrollbar={{draggable: true}}
                    onSwiper={(swiper) => (swiper)}
 
+
             >
-                {cards.map((item, i) => {
+                {cards.map((card, index) => {
                     return (
-                        <SwiperSlide>
-                            <Card key={i} className={"item container-card-item  container-card-item-First"}>
+                        <SwiperSlide key={index}>
+                            <Card  className={"item container-card-item  container-card-item-First"}>
                                 <Card.Body>
                                     <div className={"container-card-Title"}>
-                                        <h6 className={"card-Title"}>{item.teme}</h6>
-                                        <h6 className={"data-card-info"}>{item.data}</h6>
+                                        <h6 className={"card-Title"}>{card.teme}</h6>
+                                        <h6 className={"data-card-info"}>{card.data}</h6>
                                     </div>
-                                    <h3 className={"card-SubTitle"}>{item.title}</h3>
-                                    <Card.Text className={"card-Text-Content"}>{item.content}</Card.Text>
+                                    <h3 className={"card-SubTitle"}>{card.title}</h3>
+                                    <Card.Text className={"card-Text-Content"}>{card.content}</Card.Text>
                                     <div className={"card-icon-Container"}>
                                         <div className={"icon-item"}>
                                           <a href={"https://silicon.createx.studio/blog-single.html"}><img alt={"like"} className={"icon"} src={like}/></a>
-                                            <span className={"info-how-many"}>{item.like}</span>
+                                            <span className={"info-how-many"}>{card.like}</span>
                                         </div>
                                         <div className={"icon-item"}>
                                             <a href={"https://silicon.createx.studio/blog-single.html"}><img alt={"message"} className={"icon"} src={message}/></a>
-                                            <span className={"info-how-many"}>{item.comment}</span>
+                                            <span className={"info-how-many"}>{card.comment}</span>
                                         </div>
                                         <div className={"icon-item"}>
                                             <a href={"https://silicon.createx.studio/blog-single.html"}><img alt={"social"} className={"icon"} src={social}/></a>
-                                            <span className={"info-how-many"}>{item.social}</span>
+                                            <span className={"info-how-many"}>{card.social}</span>
                                         </div>
                                     </div>
                                 </Card.Body>
