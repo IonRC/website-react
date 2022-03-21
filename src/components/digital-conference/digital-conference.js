@@ -41,7 +41,6 @@ const OutlineButtonStyled = styled(ButtonStyled)`
 
 const OverFlow = styled.div`
   overflow: hidden;
-  height: 789px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -94,15 +93,15 @@ export default class DigitalConference extends Component {
     return (
       <div>
         <Row>
-          <Col md={6}>
-            <OverFlow>
+          <Col xs={12} md={12} lg={6}>
+            <OverFlow className="overflow-styled">
               <video
                 className="videoTag"
                 autoPlay
                 loop
                 muted
-                width="auto"
-                height="789px"
+                width="100%"
+                height="auto"
               >
                 <source
                   src={
@@ -113,7 +112,7 @@ export default class DigitalConference extends Component {
               </video>
             </OverFlow>
           </Col>
-          <Col md={6} className="d-flex flex-column justify-content-center">
+          <Col xs={12} md={12} lg={6} className="d-flex flex-column justify-content-center info-block">
             <DateText>Oct 14-15, 2021</DateText>
             <StyledH1>NY Digital Conference</StyledH1>
             <AddressStyled>

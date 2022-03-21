@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
+import Row from 'react-bootstrap/Row'
 
 const LPSectionColor = styled.div`
   width: 100%;
@@ -48,13 +49,13 @@ const ButtonStyled = styled.a`
 export default class LaunchProject extends Component {
   render() {
     return (
-      <div>
+      <Row>
         <LPSectionColor>
           <StyledH3>Ready to get started?</StyledH3>
           <StyledH2>Launch Your Project with Us</StyledH2>
           <ButtonStyled>Work with us</ButtonStyled>
         </LPSectionColor>
-      </div>
+      </Row>
     );
   }
 }

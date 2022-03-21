@@ -12,6 +12,78 @@
     left: -30px;
 }
 
+.info-block {
+    padding-left: 1rem;
+}
+
 i {
     margin-right: 10px;
+}
+
+@media (min-width: 992px) {
+    .overflow-styled {
+        height: 789px;
+    }
+
+    .overflow-styled video {
+        height: 789px;
+        width: auto;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .info-block .kVCMCh {
+        font-size: 5rem;
+    }
+    .cRmnqs .gmsTKc {
+        padding: 1rem 1.5rem;
+    }
+    .kkpwon .WECmc {
+        font-size: 1rem;
+    }
+    .kkpwon .gNLeC {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .d-flex .kVCMCh {
+        font-size: 5rem;
+    }
+    .cRmnqs .gmsTKc {
+        padding: 1rem 1.5rem;
+    }
+    .kkpwon .WECmc {
+        font-size: 1rem;
+    }
+    .kkpwon .gNLeC {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .d-flex .kVCMCh {
+        font-size: 3rem;
+    }
+    .cRmnqs .gmsTKc {
+        padding: 0.7rem 0.7rem;
+    margin: 0 1.5rem 2rem 0;
+    font-size: .8rem;
+    }
+    .info-block .dVzRxw {
+        font-size: 1.2rem;
+    }
+    .info-block .kkpwon {
+        flex-wrap: wrap;
+    }
+    .kkpwon .WECmc {
+        font-size: 1rem;
+    }
+    .kkpwon .gNLeC {
+        font-size: 1.1rem;
+    }
+    .fDKymT {
+        text-align: center;
+    }
 }
