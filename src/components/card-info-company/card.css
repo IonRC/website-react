@@ -4,7 +4,7 @@
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .container {
         display: grid;
     }
@@ -23,8 +23,8 @@
 
 .imgCard {
     display: flex;
-    width: 650px;
-    height: 650px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 

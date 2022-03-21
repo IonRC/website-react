@@ -20,8 +20,8 @@ class CardComponentStructure extends Component {
                                 <img alt={"icon"} className={"imgAssets"} src={srcImg.icon}/>
                             </div>
                         </div>
-                        <div>
-                            <img alt={"imgCompany"} className={"imgCard img-fluid"} src={srcImg.img}/>
+                        <div className={""}>
+                            <img alt={"imgCompany"} className={"imgCard  img-fluid"} src={srcImg.img}/>
                         </div>
                     </div>
                 </section>
