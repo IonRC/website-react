@@ -9,6 +9,7 @@ import Cards from "../cards/cards";
 import CardComponentStructure from "../card-info-company";
 import CardCarouselInfoNew from "../card-Carousel-info/cardCarouselinfoNew";
 import Apptest from "../Navbar";
+import SmartTech from "../smart-tech";
 
 export default class App extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class App extends Component {
         <BootstrapCarousel />
         <CardComponentStructure />
           <Cards />
+          <SmartTech />
         <ContainerWhyUs />
           <CardCarouselInfoNew />
         {/*<Apptest />*/}
