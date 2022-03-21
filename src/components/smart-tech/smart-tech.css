@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+.bg-img {
+    background-image: url("https://silicon.createx.studio/assets/img/landing/software-company/case-study02.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #9397ad;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.block {
+    background-color: #FFF;
+    border-radius: 6px;
+    padding: 38px;
+    margin: 120px 0;
+}
+
+.img{
+    width: 72px;
+}
+
+.h1-class {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 16px;
+
+}
+
+.p1-class{
+    color: #9397ad !important;
+}
+
+.p2-class {
+    color: rgb(88, 92, 123);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: rgb(99, 102, 241);
+    padding: 10px 28px;
+    color: #FFFF;
+    border: none;
+}
+
+.button:hover {
+    background-color: #4044ee;
+    color: #fff;
+}
