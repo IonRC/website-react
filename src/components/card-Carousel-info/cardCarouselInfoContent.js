@@ -25,7 +25,7 @@ const cards = [
         teme:"Strategy",
         data:"12 hours ago",
         title:"Mobile App Generates Data for the Energy Management",
-        content:"Sociis sit risus id. Sit facilisis dolor arcu, fermentum vestibulum arcu ele. Pulvinar at maecenas maecenas pharetra, tincidunt sollicitudin in in. ",
+        content:"Sociis sit risus id. Sit facilisis dolor arcu, fermentum vestibulum arcu ele. Pulvinar at maecenas maecenas pharetra. ",
         like:"3",
         comment:"8",
         social:"9",

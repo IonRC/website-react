@@ -14,22 +14,22 @@
 
 .containerSwiper {
     display: flex;
-    justify-content: space-around;
-
-
-}
-
-.container-card-item {
-    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
+    width: 1300px;
+    height: 500px;
 }
 
-
 .container-card-item {
-    width: 370px;
+    width: 350px;
+    height: 400px;
     cursor: pointer;
     border: 2px solid #eaeaec;
     border-radius: 10px;
+    box-shadow: 0 0 10px 1px #d4d5d7;
+    margin-left: 40px;
+    margin-top: 30px;
     transition: 1s;
 }
 
@@ -74,7 +74,7 @@
     margin-left: 20px;
     font-family: "Manrope", sans-serif;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #47474d;
 }
 
